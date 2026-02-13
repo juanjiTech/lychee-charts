@@ -3,7 +3,7 @@ entries:
   lychee-moments-plus:
   - apiVersion: v2
     appVersion: 0.1.0-test
-    created: "2026-02-13T17:27:05.243116374Z"
+    created: "2026-02-13T17:41:13.747556231Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -29,7 +29,7 @@ entries:
     version: 0.1.0-test
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-02-13T17:27:05.233002579Z"
+    created: "2026-02-13T17:41:13.737697675Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -44,7 +44,7 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: ~12.5.0
     description: Helm chart for Lychee Moments Plus backend (Go/Hertz API)
-    digest: 541cb61a4b0d95f22434989fb351c986ed0a33da66e3e0f4699775f939fd1d56
+    digest: 67e564fbe3a16579408e4c331973211f3e718d39f3ac4cf4c7dc5ec0f710cf30
     keywords:
     - lychee-moments
     - api
@@ -57,4 +57,4 @@ entries:
     urls:
     - https://juanjitech.github.io/lychee-charts/charts/lychee-moments-plus-0.0.1.tgz
     version: 0.0.1
-generated: "2026-02-13T17:27:05.219524507Z"
+generated: "2026-02-13T17:41:13.723925104Z"

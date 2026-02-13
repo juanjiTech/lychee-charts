@@ -3,7 +3,7 @@ entries:
   lychee-moments-plus:
   - apiVersion: v2
     appVersion: 0.1.0-test
-    created: "2026-02-13T03:59:47.157018904Z"
+    created: "2026-02-13T16:53:57.605634882Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -27,4 +27,34 @@ entries:
     urls:
     - https://juanjitech.github.io/lychee-charts/charts/lychee-moments-plus-0.1.0-test.tgz
     version: 0.1.0-test
-generated: "2026-02-13T03:59:47.146347235Z"
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-02-13T16:53:57.597143324Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~18.19.0
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~9.23.0
+    - condition: rabbitmq.enabled
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~12.5.0
+    description: Helm chart for Lychee Moments Plus backend (Go/Hertz API)
+    digest: 40c36e5077c7230a2248376cfe76ea706cf0a690594271ef3e0a6301f4c43ce1
+    keywords:
+    - lychee-moments
+    - api
+    - backend
+    maintainers:
+    - email: maintainers@example.com
+      name: Lychee Moments Team
+    name: lychee-moments-plus
+    type: application
+    urls:
+    - https://juanjitech.github.io/lychee-charts/charts/lychee-moments-plus-0.0.1.tgz
+    version: 0.0.1
+generated: "2026-02-13T16:53:57.58033315Z"

@@ -2,8 +2,38 @@ apiVersion: v1
 entries:
   lychee-moments-plus:
   - apiVersion: v2
+    appVersion: 0.1.3
+    created: "2026-02-17T07:54:50.443537201Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~18.19.0
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~15.0.0
+    - condition: rabbitmq.enabled
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~12.5.0
+    description: Helm chart for Lychee Moments Plus backend (Go/Hertz API)
+    digest: cf8cd140e96c4da86c1cbfa92b5b65149be73f75605263741c3b1e0ce85104d1
+    keywords:
+    - lychee-moments
+    - api
+    - backend
+    maintainers:
+    - email: maintainers@example.com
+      name: Lychee Moments Team
+    name: lychee-moments-plus
+    type: application
+    urls:
+    - https://juanjitech.github.io/lychee-charts/charts/lychee-moments-plus-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
     appVersion: 0.1.2
-    created: "2026-02-16T18:51:12.279502611Z"
+    created: "2026-02-17T07:54:50.426765443Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -33,7 +63,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2026-02-16T18:51:12.264098206Z"
+    created: "2026-02-17T07:54:50.412481316Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -63,7 +93,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0-test
-    created: "2026-02-16T18:51:12.247494475Z"
+    created: "2026-02-17T07:54:50.398482772Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -89,7 +119,7 @@ entries:
     version: 0.1.0-test
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-02-16T18:51:12.237388163Z"
+    created: "2026-02-17T07:54:50.386405054Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -117,4 +147,4 @@ entries:
     urls:
     - https://juanjitech.github.io/lychee-charts/charts/lychee-moments-plus-0.0.1.tgz
     version: 0.0.1
-generated: "2026-02-16T18:51:12.223430114Z"
+generated: "2026-02-17T07:54:50.37213487Z"

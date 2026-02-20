@@ -2,8 +2,38 @@ apiVersion: v1
 entries:
   lychee-moments-plus:
   - apiVersion: v2
+    appVersion: 0.1.6
+    created: "2026-02-20T15:09:31.402296191Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~18.19.0
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~15.0.0
+    - condition: rabbitmq.enabled
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: ~12.5.0
+    description: Helm chart for Lychee Moments Plus backend (Go/Hertz API)
+    digest: f9ed5f29c750192e5a5394d68c40f9b7ffc2f241888e2ed9231f4cc8f00e2a0a
+    keywords:
+    - lychee-moments
+    - api
+    - backend
+    maintainers:
+    - email: maintainers@example.com
+      name: Lychee Moments Team
+    name: lychee-moments-plus
+    type: application
+    urls:
+    - https://juanjitech.github.io/lychee-charts/charts/lychee-moments-plus-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
     appVersion: 0.1.5
-    created: "2026-02-19T16:42:27.074891328Z"
+    created: "2026-02-20T15:09:31.366711791Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -33,7 +63,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.4
-    created: "2026-02-19T16:42:27.059507415Z"
+    created: "2026-02-20T15:09:31.33915907Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -63,7 +93,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2026-02-19T16:42:27.045660608Z"
+    created: "2026-02-20T15:09:31.307760664Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -93,7 +123,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2026-02-19T16:42:27.031646264Z"
+    created: "2026-02-20T15:09:31.280304004Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -123,7 +153,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2026-02-19T16:42:27.017436875Z"
+    created: "2026-02-20T15:09:31.251742375Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -153,7 +183,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0-test
-    created: "2026-02-19T16:42:27.002418287Z"
+    created: "2026-02-20T15:09:31.234946382Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -179,7 +209,7 @@ entries:
     version: 0.1.0-test
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-02-19T16:42:26.992337959Z"
+    created: "2026-02-20T15:09:31.223652644Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -207,4 +237,4 @@ entries:
     urls:
     - https://juanjitech.github.io/lychee-charts/charts/lychee-moments-plus-0.0.1.tgz
     version: 0.0.1
-generated: "2026-02-19T16:42:26.976458638Z"
+generated: "2026-02-20T15:09:31.210172897Z"
